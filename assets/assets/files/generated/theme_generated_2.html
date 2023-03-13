@@ -1,0 +1,206 @@
+  
+  static final lightTheme = ThemeData(
+    scaffoldBackgroundColor: 'key_scaffold_background_color',
+    appBarTheme: AppBarTheme(
+      elevation: 'key_app_bar_elevation',
+      backgroundColor: 'key_app_bar_background_color',
+      foregroundColor: 'key_app_bar_foreground_color',
+      centerTitle: 'key_center_title',
+      titleSpacing: 'key_app_bar_title_spacing',
+      toolbarHeight: 'key_app_bar_toolbar_height',
+      actionsIconTheme: const IconThemeData(
+        color: 'key_app_bar_icon_color',
+        size: 'key_app_bar_icon_size',
+      ),
+      iconTheme: IconThemeData(
+        color: HexColor(themeMap['key_app_bar_icon_color']),
+        size: double.parse(themeMap['key_app_bar_icon_size']),
+      ),
+    ),
+    textTheme: TextTheme(
+      bodyLarge: TextStyle(
+        fontSize: 'key_txt_theme_body_large_size',
+        color: 'key_txt_theme_body_large_color',
+      ),
+      bodyMedium: TextStyle(
+        fontSize: 'key_txt_theme_body_medium_size',
+        color: 'key_txt_theme_body_medium_color',
+      ),
+      bodySmall: TextStyle(
+        fontSize: 'key_txt_theme_body_small_size',
+        color: 'key_txt_theme_body_small_color',
+      ),
+      titleLarge: TextStyle(
+        fontSize: 'key_txt_theme_title_large_size',
+        color: 'key_txt_theme_title_large_color',
+      ),
+      titleMedium: TextStyle(
+        fontSize: 'key_txt_theme_title_medium_size',
+        color: 'key_txt_theme_title_medium_color',
+      ),
+      titleSmall: TextStyle(
+        fontSize: 'key_txt_theme_title_small_size',
+        color: 'key_txt_theme_title_small_color',
+      ),  
+      labelLarge: TextStyle(
+        fontSize: 'key_txt_theme_label_large_size',
+        color: 'key_txt_theme_label_large_color',
+        letterSpacing: 'key_txt_theme_label_large_letter_spacing',
+      ),        
+    ),
+    tabBarTheme: TabBarTheme(
+      indicatorSize: 'key_tabbar_indicator_size',
+      unselectedLabelColor: 'key_tabbar_unselected_label_color',
+      labelColor: 'key_tabbar_selected_label_color',
+      indicator: const ShapeDecoration(
+        shape: UnderlineInputBorder(
+          borderSide: BorderSide(
+            color: 'key_tabbar_indicator_color',
+            width: 'key_tabbar_indicator_width',
+            style: 'key_tabbar_indicator_underline_border_style',
+          ),
+        ),
+      )
+    ),
+    textButtonTheme: TextButtonThemeData(
+      style: ButtonStyle(
+        foregroundColor: MaterialStateProperty.all<Color>(
+         'key_txt_btn_foreground_color',          
+        ),
+        backgroundColor: MaterialStateProperty.all<Color>(
+         'key_txt_btn_background_color',          
+        ),
+      ),
+    ),
+    elevatedButtonTheme: ElevatedButtonThemeData(
+      style: ButtonStyle(
+        foregroundColor: MaterialStateProperty.all<Color>(
+          'key_elevated_btn_foreground_color',
+        ),
+        backgroundColor: MaterialStateProperty.all<Color>(
+          'key_elevated_btn_background_color',
+        ),
+        elevation: MaterialStateProperty.all<double>(
+          'key_elevated_btn_elevation',
+        ),
+      ),
+    ),
+    chipTheme: ChipThemeData(
+      backgroundColor: 'key_chip_theme_background_color',
+      elevation: 'key_chip_theme_elevation',
+    ),
+    iconButtonTheme: IconButtonThemeData(
+      style: ButtonStyle(
+        iconSize: MaterialStateProperty.all<double>(
+          'key_icon_btn_theme_icon_size',
+        ),
+        iconColor: MaterialStateProperty.all<Color>(
+          'key_icon_btn_icon_color',
+        ),        
+      ),
+    ),
+    switchTheme: SwitchThemeData(
+      trackColor: MaterialStateProperty.all<Color>(
+        'key_switch_theme_track_color',
+      ),
+    ),
+    filledButtonTheme: FilledButtonThemeData(
+      style: ButtonStyle(
+        backgroundColor: MaterialStateProperty.all<Color>(
+          'key_filled_btn_background_color',
+        ),
+        foregroundColor: MaterialStateProperty.all<Color>(
+          'key_filled_btn_foreground_color',
+        ),
+      ),
+    ),
+    radioTheme: RadioThemeData(
+      fillColor: MaterialStateProperty.all<Color>(
+        'key_radio_theme_fill_color',
+      ),
+    ),
+    iconTheme: IconThemeData(
+      color: 'key_icon_theme_icon_color',
+    ),
+    checkboxTheme: CheckboxThemeData(
+      checkColor: MaterialStateProperty.all<Color>(
+        'key_checkbox_theme_check_color',
+      ),
+      fillColor: MaterialStateProperty.all<Color>(
+        'key_checkbox_theme_check_color',
+      ),
+    ),
+    listTileTheme: ListTileThemeData(
+      tileColor: 'key_list_tile_tile_color',
+      iconColor: 'key_list_tile_icon_color',
+      selectedColor: 'key_list_tile_selected_color',
+      horizontalTitleGap: 'key_list_tile_horizontal_title_gap',
+      dense: 'key_list_tile_dense',
+    ),
+    cardTheme: CardTheme(
+      color: 'key_card_background_color',
+      shadowColor: 'key_card_shadow_color',
+      elevation: 'key_card_elevation',
+    ),
+    snackBarTheme: SnackBarThemeData(
+      backgroundColor: 'key_snackbar_background_color',      
+      elevation: 'key_snackbar_elevation',
+      contentTextStyle: TextStyle(
+        color: 'key_snackbar_content_txt_color',
+      ),
+    ),
+    floatingActionButtonTheme: FloatingActionButtonThemeData(
+      foregroundColor:'key_floating_btn_foreground_color',
+      iconSize:'key_floating_btn_icon_size',
+      backgroundColor:'key_floating_btn_background_color',
+      enableFeedback: 'key_floating_btn_enable_feedback',
+    ),
+    drawerTheme: DrawerThemeData(
+      backgroundColor: 'key_drawer_background_color',
+      elevation: 'key_drawer_elevation',
+      width: 'key_drawer_width',
+    ),
+    dividerTheme: DividerThemeData(
+      indent: 'key_divider_indent',
+      endIndent: 'key_divider_end_indent',
+      thickness: 'key_divider_thickness',
+      color: 'key_divider_color',
+    ),
+    dialogTheme: DialogTheme(
+      backgroundColor: 'key_dialog_theme_background_color',
+    ),
+    dropdownMenuTheme: DropdownMenuThemeData(
+      inputDecorationTheme: InputDecorationTheme(
+        fillColor: 'key_dropdown_menu_theme_input_decoration_fill_color',
+        iconColor: 'key_dropdown_menu_theme_input_decoration_icon_color',
+      ),
+    ),
+    bottomAppBarTheme: BottomAppBarTheme(
+      color: 'key_bottom_appbar_theme_color',
+      elevation: 'key_bottom_appbar_theme_elevation',
+      surfaceTintColor: 'key_bottom_appbar_theme_surface_tint_color',
+      height: 'key_bottom_appbar_theme_height',
+    ),
+    toggleButtonsTheme: ToggleButtonsThemeData(
+      fillColor: 'key_toggle_buttons_theme_fill_color',
+      color: 'key_toggle_buttons_theme_color',
+      selectedColor: 'key_toggle_buttons_theme_selected_color',
+      borderColor: 'key_toggle_buttons_theme_border_color',
+    ),
+    buttonBarTheme: ButtonBarThemeData(
+      buttonHeight: 'key_btn_bar_theme_btn_height',
+      buttonMinWidth: 'key_btn_bar_theme_btn_min_width',
+      buttonAlignedDropdown:'key_btn_bar_theme_btn_aligned_dropdown',
+    ),
+    visualDensity: 'key_visual_density',
+    pageTransitionsTheme: PageTransitionsTheme(builders: {
+      TargetPlatform.android: 'key_page_transitions_android_theme',
+      TargetPlatform.iOS: 'key_page_transitions_ios_theme',
+      TargetPlatform.macOS: 'key_page_transitions_mac_os_theme',
+      TargetPlatform.fuchsia: 'key_page_transitions_fuschia_theme',
+      TargetPlatform.windows: 'key_page_transitions_windows_theme',
+      TargetPlatform.linux: 'key_page_transitions_linux_theme',      
+    }),
+  );
+
+  

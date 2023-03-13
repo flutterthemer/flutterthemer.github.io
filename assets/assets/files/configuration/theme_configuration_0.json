@@ -1,0 +1,47 @@
+[
+   {
+      "id":1,
+      "title":"Color",
+      "expanded":true,
+      "basic":false,
+      "items":[
+         {
+            "title":"",
+            "sub_items":[
+               {
+                  "id":1,
+                  "subtitle":false,
+                  "title":"Primary Swatch",
+                  "key":"key_primary_swatch_color",
+                  "value_type":"string",
+                  "input":"color",
+                  "dark":{
+                     "id":0,
+                     "value":[
+                        {
+                           "id":0,
+                           "label":"color",
+                           "selected":true,
+                           "value":"#FF000000",
+                           "selected_value":"#FF000000"
+                        }
+                     ]
+                  },
+                  "light":{
+                     "id":1,
+                     "value":[
+                        {
+                           "id":0,
+                           "label":"color",
+                           "selected":true,
+                           "value":"#FFFE91E63",
+                           "selected_value":"#FFFE91E63"
+                        }
+                     ]
+                  }
+               }
+            ]
+         }
+      ]
+   }
+]

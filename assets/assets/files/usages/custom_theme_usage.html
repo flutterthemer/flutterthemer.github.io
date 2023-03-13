@@ -1,0 +1,13 @@
+class MyWidget extends StatelessWidget {
+
+    const MyWidget({super.key});
+  
+    @override
+    Widget build(BuildContext context) {
+      final myColors = Theme.of(context).extension<MyColors>()!;
+      return Scaffold(
+         body: const PlaceHolder(),
+      );
+    }
+    
+}
