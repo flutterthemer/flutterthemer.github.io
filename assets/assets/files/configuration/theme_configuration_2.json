@@ -3447,7 +3447,7 @@
                {
                   "id":1,
                   "subtitle":false,
-                  "title":"Background Color",
+                  "title":"Selected\nBackground Color",
                   "key":"key_chip_theme_selected_background_color",
                   "value_type":"string",
                   "input":"color",
@@ -3479,7 +3479,7 @@
                {
                   "id":1,
                   "subtitle":false,
-                  "title":"Background Color",
+                  "title":"Selected\nLabel Color",
                   "key":"key_chip_theme_selected_label_color",
                   "value_type":"string",
                   "input":"color",

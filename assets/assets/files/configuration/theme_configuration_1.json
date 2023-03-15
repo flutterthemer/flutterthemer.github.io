@@ -107,7 +107,7 @@
                {
                   "id":1,
                   "subtitle":false,
-                  "title":"On Primary Container",
+                  "title":"On Primary\nContainer",
                   "key":"key_cs_on_primary_container",
                   "value_type":"string",
                   "input":"color",
@@ -240,7 +240,7 @@
                {
                   "id":1,
                   "subtitle":false,
-                  "title":"On Secondary Container",
+                  "title":"On Secondary\nContainer",
                   "key":"key_cs_on_secondary_container",
                   "value_type":"string",
                   "input":"color",
@@ -373,7 +373,7 @@
                {
                   "id":1,
                   "subtitle":false,
-                  "title":"On Tertiary Container",
+                  "title":"On Tertiary\nContainer",
                   "key":"key_cs_on_tertiary_container",
                   "value_type":"string",
                   "input":"color",
@@ -506,7 +506,7 @@
                {
                   "id":1,
                   "subtitle":false,
-                  "title":"On Error Container",
+                  "title":"On Error\nContainer",
                   "key":"key_cs_on_error_container",
                   "value_type":"string",
                   "input":"color",
