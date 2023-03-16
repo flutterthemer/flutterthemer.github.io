@@ -1,0 +1,18 @@
+{
+    "items":[
+       {
+          "id": 0,
+          "title":"Email",
+          "value":"flutterthemer@gmail.com",
+          "icon": "0xe18a",
+          "copy_enabled":true
+       },
+       {
+            "id": 1,
+            "title":"Github",
+            "value":"https://github.com/flutterthemer/flutterthemer.github.io",
+            "icon": "0xe176",
+            "copy_enabled":true
+       }
+    ]
+ }

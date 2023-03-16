@@ -3265,8 +3265,8 @@
                            "id":0,
                            "label":"color",
                            "selected":true,
-                           "value":"#FFF8F7F7",
-                           "selected_value":"#FFF8F7F7"
+                           "value":"#FFFFFFFF",
+                           "selected_value":"#FFFFFFFF"
                         }
                      ]
                   }
@@ -3317,8 +3317,8 @@
                            "id":0,
                            "label":"color",
                            "selected":true,
-                           "value":"#FF00FF00",
-                           "selected_value":"#FF00FF00"
+                           "value":"#FFF1EFEF",
+                           "selected_value":"#FFF1EFEF"
                         }
                      ]
                   },
@@ -3329,8 +3329,8 @@
                            "id":0,
                            "label":"color",
                            "selected":true,
-                           "value":"#FF00FF00",
-                           "selected_value":"#FF00FF00"
+                           "value":"#FFF1EFEF",
+                           "selected_value":"#FFF1EFEF"
                         }
                      ]
                   }
@@ -4213,6 +4213,70 @@
                            "value":"VisualDensity.compact",
                            "selected_value":"VisualDensity.compact"
                         }
+                     ]
+                  }
+               },
+               {
+                  "id":1,
+                  "subtitle":false,
+                  "title":"Unselected Widget Color",
+                  "key":"key_unselected_widget_color",
+                  "value_type":"string",
+                  "input":"color",
+                  "dark":{
+                     "id":0,
+                     "value":[ 
+                       {
+                          "id": 0,
+                          "label":"Unselected Widget Color",
+                          "selected": true,
+                          "value": "#8a000000",
+                          "selected_value": "#8a000000"
+                       }
+                     ]
+                  },
+                  "light":{
+                     "id":1,
+                     "value":[ 
+                       {
+                          "id": 0,
+                          "label":"Unselected Widget Color",
+                          "selected": true,
+                          "value": "#8a000000",
+                          "selected_value": "#8a000000"
+                       }
+                     ]
+                  }
+               },
+               {
+                  "id": 3,
+                  "subtitle":false,
+                  "title":"Dialog Background Color",
+                  "key":"key_dialog_background_color",
+                  "value_type":"string",
+                  "input":"color",
+                  "dark":{
+                     "id":0,
+                     "value":[ 
+                       {
+                          "id": 0,
+                          "label":"Dialog Background Color",
+                          "selected": true,
+                          "value": "#fffefcf3",
+                          "selected_value": "#fffefcf3"
+                       }
+                     ]
+                  },
+                  "light":{
+                     "id":1,
+                     "value":[ 
+                       {
+                          "id": 0,
+                          "label":"Dialog Background Color",
+                          "selected": true,
+                          "value": "#fffefcf3",
+                          "selected_value": "#fffefcf3"
+                       }
                      ]
                   }
                }

@@ -1,11 +1,11 @@
 {
-    "name": "flutter_themer",
-    "short_name": "flutter_themer",
+    "name": "Flutter Themer",
+    "short_name": "Flutter Themer",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Create Beautiful Flutter Applications",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
