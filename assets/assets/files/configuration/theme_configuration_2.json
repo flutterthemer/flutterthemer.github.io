@@ -276,6 +276,52 @@
                         }
                      ]
                   }
+               },
+               {
+                  "id": 9,
+                  "subtitle":false,
+                  "title":"System Overlay Style",
+                  "key":"key_appbar_system_overlay_style",
+                  "value_type":"string",
+                  "input":"dropdown",
+                  "dark":{
+                     "id":0,
+                     "value":[
+                        {
+                           "id":0,
+                           "label":"Dark",
+                           "selected":false,
+                           "value":"SystemUiOverlayStyle.dark",
+                           "selected_value":"SystemUiOverlayStyle.dark"
+                        },
+                        {
+                           "id":1,
+                           "label":"Light",
+                           "selected":true,
+                           "value":"SystemUiOverlayStyle.light",
+                           "selected_value":"SystemUiOverlayStyle.light"
+                        }
+                     ]
+                  },
+                  "light":{
+                     "id":1,
+                     "value":[
+                        {
+                           "id":0,
+                           "label":"Dark",
+                           "selected":true,
+                           "value":"SystemUiOverlayStyle.dark",
+                           "selected_value":"SystemUiOverlayStyle.dark"
+                        },
+                        {
+                           "id":1,
+                           "label":"Light",
+                           "selected":false,
+                           "value":"SystemUiOverlayStyle.light",
+                           "selected_value":"SystemUiOverlayStyle.light"
+                        }
+                     ]
+                  }
                }
             ]
          },
