@@ -2550,7 +2550,39 @@
                   }
                },
                {
-                  "id":1,
+                  "id":2,
+                  "subtitle":false,
+                  "title":"Background Color",
+                  "key":"key_icon_btn_icon_background_color",
+                  "value_type":"string",
+                  "input":"color",
+                  "dark":{
+                     "id":0,
+                     "value":[ 
+                       {
+                          "id": 0,
+                          "label":"color",
+                          "selected": true,
+                          "value": "#00000000",
+                          "selected_value": "#00000000"
+                       }
+                     ]
+                  },
+                  "light":{
+                     "id":1,
+                     "value":[ 
+                       {
+                          "id": 0,
+                          "label":"color",
+                          "selected": true,
+                          "value": "#00000000",
+                          "selected_value": "#00000000"
+                       }
+                     ]
+                  }
+               },
+               {
+                  "id":3,
                   "subtitle":false,
                   "title":"Size",
                   "key":"key_icon_btn_theme_icon_size",
@@ -3363,8 +3395,8 @@
                            "id":0,
                            "label":"color",
                            "selected":true,
-                           "value":"#FFF1EFEF",
-                           "selected_value":"#FFF1EFEF"
+                           "value":"#A7221D1D",
+                           "selected_value":"#A7221D1D"
                         }
                      ]
                   },
@@ -4167,6 +4199,882 @@
    },
    {
       "id":1,
+      "title":"Color Scheme",
+      "expanded":false,
+      "basic":true,
+      "exclude_sort": true,
+      "items":[
+         {
+            "title":"Primary Colors",
+            "sub_items":[
+               {
+                  "id":0,
+                  "subtitle":false,
+                  "title":"Primary Color",
+                  "key":"key_cs_primary",
+                  "value_type":"string",
+                  "input":"color",
+                  "dark":{
+                     "id":0,
+                     "value":[
+                        {
+                           "id":0,
+                           "label":"color",
+                           "selected":true,
+                           "value":"#FF9ECAFF",
+                           "selected_value":"#FF9ECAFF"
+                        }
+                     ]
+                  },
+                  "light":{
+                     "id":1,
+                     "value":[
+                        {
+                           "id":0,
+                           "label":"color",
+                           "selected":true,
+                           "value":"#FF1976D2",
+                           "selected_value":"#FF1976D2"
+                        }
+                     ]
+                  }
+               },
+               {
+                  "id":1,
+                  "subtitle":false,
+                  "title":"On Primary Color",
+                  "key":"key_cs_on_primary",
+                  "value_type":"string",
+                  "input":"color",
+                  "dark":{
+                     "id":0,
+                     "value":[
+                        {
+                           "id":0,
+                           "label":"color",
+                           "selected":true,
+                           "value":"#FF003258",
+                           "selected_value":"#FF003258"
+                        }
+                     ]
+                  },
+                  "light":{
+                     "id":1,
+                     "value":[
+                        {
+                           "id":0,
+                           "label":"color",
+                           "selected":true,
+                           "value":"#FFFFFFFF",
+                           "selected_value":"#FFFFFFFF"
+                        }
+                     ]
+                  }
+               },
+               {
+                  "id":1,
+                  "subtitle":false,
+                  "title":"Primary Container",
+                  "key":"key_cs_primary_container",
+                  "value_type":"string",
+                  "input":"color",
+                  "dark":{
+                     "id":0,
+                     "value":[
+                        {
+                           "id":0,
+                           "label":"color",
+                           "selected":true,
+                           "value":"#FF00497D",
+                           "selected_value":"#FF00497D"
+                        }
+                     ]
+                  },
+                  "light":{
+                     "id":1,
+                     "value":[
+                        {
+                           "id":0,
+                           "label":"color",
+                           "selected":true,
+                           "value":"#FFD1E4FF",
+                           "selected_value":"#FFD1E4FF"
+                        }
+                     ]
+                  }
+               },
+               {
+                  "id":1,
+                  "subtitle":false,
+                  "title":"On Primary\nContainer",
+                  "key":"key_cs_on_primary_container",
+                  "value_type":"string",
+                  "input":"color",
+                  "dark":{
+                     "id":0,
+                     "value":[
+                        {
+                           "id":0,
+                           "label":"color",
+                           "selected":true,
+                           "value":"#FFD1E4FF",
+                           "selected_value":"#FFD1E4FF"
+                        }
+                     ]
+                  },
+                  "light":{
+                     "id":1,
+                     "value":[
+                        {
+                           "id":0,
+                           "label":"color",
+                           "selected":true,
+                           "value":"#FF001D36",
+                           "selected_value":"#FF001D36"
+                        }
+                     ]
+                  }
+               }
+            ]
+         },
+         {
+            "title":"Secondary Colors",
+            "sub_items":[
+               {
+                  "id":0,
+                  "subtitle":false,
+                  "title":"Secondary Color",
+                  "key":"key_cs_secondary",
+                  "value_type":"string",
+                  "input":"color",
+                  "dark":{
+                     "id":0,
+                     "value":[
+                        {
+                           "id":0,
+                           "label":"color",
+                           "selected":true,
+                           "value":"#FFBBC7DB",
+                           "selected_value":"#FFBBC7DB"
+                        }
+                     ]
+                  },
+                  "light":{
+                     "id":1,
+                     "value":[
+                        {
+                           "id":0,
+                           "label":"color",
+                           "selected":true,
+                           "value":"#FF535F70",
+                           "selected_value":"#FF535F70"
+                        }
+                     ]
+                  }
+               },
+               {
+                  "id":1,
+                  "subtitle":false,
+                  "title":"On Secondary Color",
+                  "key":"key_cs_on_secondary",
+                  "value_type":"string",
+                  "input":"color",
+                  "dark":{
+                     "id":0,
+                     "value":[
+                        {
+                           "id":0,
+                           "label":"color",
+                           "selected":true,
+                           "value":"#FF253140",
+                           "selected_value":"#FF253140"
+                        }
+                     ]
+                  },
+                  "light":{
+                     "id":1,
+                     "value":[
+                        {
+                           "id":0,
+                           "label":"color",
+                           "selected":true,
+                           "value":"#FFFFFFFF",
+                           "selected_value":"#FFFFFFFF"
+                        }
+                     ]
+                  }
+               },
+               {
+                  "id":1,
+                  "subtitle":false,
+                  "title":"Secondary Container",
+                  "key":"key_cs_secondary_container",
+                  "value_type":"string",
+                  "input":"color",
+                  "dark":{
+                     "id":0,
+                     "value":[
+                        {
+                           "id":0,
+                           "label":"color",
+                           "selected":true,
+                           "value":"#FF3B4858",
+                           "selected_value":"#FF3B4858"
+                        }
+                     ]
+                  },
+                  "light":{
+                     "id":1,
+                     "value":[
+                        {
+                           "id":0,
+                           "label":"color",
+                           "selected":true,
+                           "value":"#FFD7E3F7",
+                           "selected_value":"#FFD7E3F7"
+                        }
+                     ]
+                  }
+               },
+               {
+                  "id":1,
+                  "subtitle":false,
+                  "title":"On Secondary\nContainer",
+                  "key":"key_cs_on_secondary_container",
+                  "value_type":"string",
+                  "input":"color",
+                  "dark":{
+                     "id":0,
+                     "value":[
+                        {
+                           "id":0,
+                           "label":"color",
+                           "selected":true,
+                           "value":"#FFD7E3F7",
+                           "selected_value":"#FFD7E3F7"
+                        }
+                     ]
+                  },
+                  "light":{
+                     "id":1,
+                     "value":[
+                        {
+                           "id":0,
+                           "label":"color",
+                           "selected":true,
+                           "value":"#FF101C2B",
+                           "selected_value":"#FF101C2B"
+                        }
+                     ]
+                  }
+               }
+            ]
+         },
+         {
+            "title":"Tertiary Colors",
+            "sub_items":[
+               {
+                  "id":0,
+                  "subtitle":false,
+                  "title":"Tertiary",
+                  "key":"key_cs_tertiary",
+                  "value_type":"string",
+                  "input":"color",
+                  "dark":{
+                     "id":0,
+                     "value":[
+                        {
+                           "id":0,
+                           "label":"color",
+                           "selected":true,
+                           "value":"#FFD6BEE4",
+                           "selected_value":"#FFD6BEE4"
+                        }
+                     ]
+                  },
+                  "light":{
+                     "id":1,
+                     "value":[
+                        {
+                           "id":0,
+                           "label":"color",
+                           "selected":true,
+                           "value":"#FF6B5778",
+                           "selected_value":"#FF6B5778"
+                        }
+                     ]
+                  }
+               },
+               {
+                  "id":1,
+                  "subtitle":false,
+                  "title":"On Tertiary",
+                  "key":"key_cs_on_tertiary",
+                  "value_type":"string",
+                  "input":"color",
+                  "dark":{
+                     "id":0,
+                     "value":[
+                        {
+                           "id":0,
+                           "label":"color",
+                           "selected":true,
+                           "value":"#FF3B2948",
+                           "selected_value":"#FF3B2948"
+                        }
+                     ]
+                  },
+                  "light":{
+                     "id":1,
+                     "value":[
+                        {
+                           "id":0,
+                           "label":"color",
+                           "selected":true,
+                           "value":"#FFFFFFFF",
+                           "selected_value":"#FFFFFFFF"
+                        }
+                     ]
+                  }
+               },
+               {
+                  "id":1,
+                  "subtitle":false,
+                  "title":"Tertiary Container",
+                  "key":"key_cs_tertiary_container",
+                  "value_type":"string",
+                  "input":"color",
+                  "dark":{
+                     "id":0,
+                     "value":[
+                        {
+                           "id":0,
+                           "label":"color",
+                           "selected":true,
+                           "value":"#FF4A3956",
+                           "selected_value":"#FF4A3956"
+                        }
+                     ]
+                  },
+                  "light":{
+                     "id":1,
+                     "value":[
+                        {
+                           "id":0,
+                           "label":"color",
+                           "selected":true,
+                           "value":"#FFF2DAFF",
+                           "selected_value":"#FFF2DAFF"
+                        }
+                     ]
+                  }
+               },
+               {
+                  "id":1,
+                  "subtitle":false,
+                  "title":"On Tertiary\nContainer",
+                  "key":"key_cs_on_tertiary_container",
+                  "value_type":"string",
+                  "input":"color",
+                  "dark":{
+                     "id":0,
+                     "value":[
+                        {
+                           "id":0,
+                           "label":"color",
+                           "selected":true,
+                           "value":"#FFF2DAFF",
+                           "selected_value":"#FFF2DAFF"
+                        }
+                     ]
+                  },
+                  "light":{
+                     "id":1,
+                     "value":[
+                        {
+                           "id":0,
+                           "label":"color",
+                           "selected":true,
+                           "value":"#FF251431",
+                           "selected_value":"#FF251431"
+                        }
+                     ]
+                  }
+               }
+            ]
+         },
+         {
+            "title":"Error Colors",
+            "sub_items":[
+               {
+                  "id":0,
+                  "subtitle":false,
+                  "title":"Error",
+                  "key":"key_cs_error",
+                  "value_type":"string",
+                  "input":"color",
+                  "dark":{
+                     "id":0,
+                     "value":[
+                        {
+                           "id":0,
+                           "label":"color",
+                           "selected":true,
+                           "value":"#FFFFB4AB",
+                           "selected_value":"#FFFFB4AB"
+                        }
+                     ]
+                  },
+                  "light":{
+                     "id":1,
+                     "value":[
+                        {
+                           "id":0,
+                           "label":"color",
+                           "selected":true,
+                           "value":"#FFBA1A1A",
+                           "selected_value":"#FFBA1A1A"
+                        }
+                     ]
+                  }
+               },
+               {
+                  "id":1,
+                  "subtitle":false,
+                  "title":"On Error",
+                  "key":"key_cs_on_error",
+                  "value_type":"string",
+                  "input":"color",
+                  "dark":{
+                     "id":0,
+                     "value":[
+                        {
+                           "id":0,
+                           "label":"color",
+                           "selected":true,
+                           "value":"#FF690005",
+                           "selected_value":"#FF690005"
+                        }
+                     ]
+                  },
+                  "light":{
+                     "id":1,
+                     "value":[
+                        {
+                           "id":0,
+                           "label":"color",
+                           "selected":true,
+                           "value":"#FFFFFFFF",
+                           "selected_value":"#FFFFFFFF"
+                        }
+                     ]
+                  }
+               },
+               {
+                  "id":1,
+                  "subtitle":false,
+                  "title":"Error Container",
+                  "key":"key_cs_error_container",
+                  "value_type":"string",
+                  "input":"color",
+                  "dark":{
+                     "id":0,
+                     "value":[
+                        {
+                           "id":0,
+                           "label":"color",
+                           "selected":true,
+                           "value":"#FF410002",
+                           "selected_value":"#FF410002"
+                        }
+                     ]
+                  },
+                  "light":{
+                     "id":1,
+                     "value":[
+                        {
+                           "id":0,
+                           "label":"color",
+                           "selected":true,
+                           "value":"#FFFFDAD6",
+                           "selected_value":"#FFFFDAD6"
+                        }
+                     ]
+                  }
+               },
+               {
+                  "id":1,
+                  "subtitle":false,
+                  "title":"On Error\nContainer",
+                  "key":"key_cs_on_error_container",
+                  "value_type":"string",
+                  "input":"color",
+                  "dark":{
+                     "id":0,
+                     "value":[
+                        {
+                           "id":0,
+                           "label":"color",
+                           "selected":true,
+                           "value":"#FFD1E4FF",
+                           "selected_value":"#FFD1E4FF"
+                        }
+                     ]
+                  },
+                  "light":{
+                     "id":1,
+                     "value":[
+                        {
+                           "id":0,
+                           "label":"color",
+                           "selected":true,
+                           "value":"#FF001D36",
+                           "selected_value":"#FF001D36"
+                        }
+                     ]
+                  }
+               }
+            ]
+         },
+         {
+            "title":"Surface",
+            "sub_items":[
+               {
+                  "id":0,
+                  "subtitle":false,
+                  "title":"Surface Color",
+                  "key":"key_cs_surface",
+                  "value_type":"string",
+                  "input":"color",
+                  "dark":{
+                     "id":0,
+                     "value":[
+                        {
+                           "id":0,
+                           "label":"color",
+                           "selected":true,
+                           "value":"#FF17191B",
+                           "selected_value":"#FF17191B"
+                        }
+                     ]
+                  },
+                  "light":{
+                     "id":1,
+                     "value":[
+                        {
+                           "id":0,
+                           "label":"color",
+                           "selected":true,
+                           "value":"#FF000000",
+                           "selected_value":"#FF000000"
+                        }
+                     ]
+                  }
+               },
+               {
+                  "id":1,
+                  "subtitle":false,
+                  "title":"On Surface Color",
+                  "key":"key_cs_on_surface",
+                  "value_type":"string",
+                  "input":"color",
+                  "dark":{
+                     "id":0,
+                     "value":[
+                        {
+                           "id":0,
+                           "label":"color",
+                           "selected":true,
+                           "value":"#FFE2E2E6",
+                           "selected_value":"#FFE2E2E6"
+                        }
+                     ]
+                  },
+                  "light":{
+                     "id":1,
+                     "value":[
+                        {
+                           "id":0,
+                           "label":"color",
+                           "selected":true,
+                           "value":"#FF1A1C1E",
+                           "selected_value":"#FF1A1C1E"
+                        }
+                     ]
+                  }
+               },
+               {
+                  "id":1,
+                  "subtitle":false,
+                  "title":"Surface Tint",
+                  "key":"key_cs_surface_tint",
+                  "value_type":"string",
+                  "input":"color",
+                  "dark":{
+                     "id":0,
+                     "value":[
+                        {
+                           "id":0,
+                           "label":"color",
+                           "selected":true,
+                           "value":"#FFDADDE2",
+                           "selected_value":"#FFDADDE2"
+                        }
+                     ]
+                  },
+                  "light":{
+                     "id":1,
+                     "value":[
+                        {
+                           "id":0,
+                           "label":"color",
+                           "selected":true,
+                           "value":"#FFD1E4FF",
+                           "selected_value":"#FFD1E4FF"
+                        }
+                     ]
+                  }
+               },
+               {
+                  "id":1,
+                  "subtitle":false,
+                  "title":"Surface Variant",
+                  "key":"key_cs_surface_variant",
+                  "value_type":"string",
+                  "input":"color",
+                  "dark":{
+                     "id":0,
+                     "value":[
+                        {
+                           "id":0,
+                           "label":"color",
+                           "selected":true,
+                           "value":"#FFB0B3BA",
+                           "selected_value":"#FFB0B3BA"
+                        }
+                     ]
+                  },
+                  "light":{
+                     "id":1,
+                     "value":[
+                        {
+                           "id":0,
+                           "label":"color",
+                           "selected":true,
+                           "value":"#FF646870",
+                           "selected_value":"#FF646870"
+                        }
+                     ]
+                  }
+               },
+               {
+                  "id":1,
+                  "subtitle":false,
+                  "title":"On Surface Variant",
+                  "key":"key_cs_on_surface_variant",
+                  "value_type":"string",
+                  "input":"color",
+                  "dark":{
+                     "id":0,
+                     "value":[
+                        {
+                           "id":0,
+                           "label":"color",
+                           "selected":true,
+                           "value":"#FFD1E4FF",
+                           "selected_value":"#FFD1E4FF"
+                        }
+                     ]
+                  },
+                  "light":{
+                     "id":1,
+                     "value":[
+                        {
+                           "id":0,
+                           "label":"color",
+                           "selected":true,
+                           "value":"#FF001D36",
+                           "selected_value":"#FF001D36"
+                        }
+                     ]
+                  }
+               },
+               {
+                  "id":1,
+                  "subtitle":false,
+                  "title":"Inverse Surface",
+                  "key":"key_cs_inverse_surface",
+                  "value_type":"string",
+                  "input":"color",
+                  "dark":{
+                     "id":0,
+                     "value":[
+                        {
+                           "id":0,
+                           "label":"color",
+                           "selected":true,
+                           "value":"#FFD1E4FF",
+                           "selected_value":"#FFD1E4FF"
+                        }
+                     ]
+                  },
+                  "light":{
+                     "id":1,
+                     "value":[
+                        {
+                           "id":0,
+                           "label":"color",
+                           "selected":true,
+                           "value":"#FF001D36",
+                           "selected_value":"#FF001D36"
+                        }
+                     ]
+                  }
+               }
+            ]
+         },
+         {
+            "title":"Others",
+            "sub_items":[
+               {
+                  "id":0,
+                  "subtitle":false,
+                  "title":"Outline Color",
+                  "key":"key_cs_outline",
+                  "value_type":"string",
+                  "input":"color",
+                  "dark":{
+                     "id":0,
+                     "value":[
+                        {
+                           "id":0,
+                           "label":"color",
+                           "selected":true,
+                           "value":"#FF9ECAFF",
+                           "selected_value":"#FF9ECAFF"
+                        }
+                     ]
+                  },
+                  "light":{
+                     "id":1,
+                     "value":[
+                        {
+                           "id":0,
+                           "label":"color",
+                           "selected":true,
+                           "value":"#FF1976D2",
+                           "selected_value":"#FF1976D2"
+                        }
+                     ]
+                  }
+               },
+               {
+                  "id":0,
+                  "subtitle":false,
+                  "title":"Shadow Color",
+                  "key":"key_cs_shadow",
+                  "value_type":"string",
+                  "input":"color",
+                  "dark":{
+                     "id":0,
+                     "value":[
+                        {
+                           "id":0,
+                           "label":"color",
+                           "selected":true,
+                           "value":"#FF9ECAFF",
+                           "selected_value":"#FF9ECAFF"
+                        }
+                     ]
+                  },
+                  "light":{
+                     "id":1,
+                     "value":[
+                        {
+                           "id":0,
+                           "label":"color",
+                           "selected":true,
+                           "value":"#FF1976D2",
+                           "selected_value":"#FF1976D2"
+                        }
+                     ]
+                  }
+               }
+            ]
+         },
+         {
+            "title":"Background Colors",
+            "sub_items":[
+               {
+                  "id":0,
+                  "subtitle":false,
+                  "title":"Background Color",
+                  "key":"key_cs_background_color",
+                  "value_type":"string",
+                  "input":"color",
+                  "dark":{
+                     "id":0,
+                     "value":[
+                        {
+                           "id":0,
+                           "label":"color",
+                           "selected":true,
+                           "value":"#FF17191B",
+                           "selected_value":"#FF17191B"
+                        }
+                     ]
+                  },
+                  "light":{
+                     "id":1,
+                     "value":[
+                        {
+                           "id":0,
+                           "label":"color",
+                           "selected":true,
+                           "value":"#FFFFFFFF",
+                           "selected_value":"#FFFFFFFF"
+                        }
+                     ]
+                  }
+               },
+               {
+                  "id":1,
+                  "subtitle":false,
+                  "title":"On Background Color",
+                  "key":"key_cs_on_background_color",
+                  "value_type":"string",
+                  "input":"color",
+                  "dark":{
+                     "id":0,
+                     "value":[
+                        {
+                           "id":0,
+                           "label":"color",
+                           "selected":true,
+                           "value":"#FFF5F5F6",
+                           "selected_value":"#FFF5F5F6"
+                        }
+                     ]
+                  },
+                  "light":{
+                     "id":1,
+                     "value":[
+                        {
+                           "id":0,
+                           "label":"color",
+                           "selected":true,
+                           "value":"#FF17191B",
+                           "selected_value":"#FF17191B"
+                        }
+                     ]
+                  }
+               }
+            ]
+         }
+      ]
+   },
+   {
+      "id":1,
       "title":"Others",
       "expanded": false,
       "exclude_sort": true,
@@ -4186,38 +5094,31 @@
                      "value":[
                         {
                            "id":0,
-                           "label":"standard",
+                           "label":"Standard",
                            "selected":true,
                            "value":"VisualDensity.standard",
                            "selected_value":"VisualDensity.standard"
                         },
                         {
                            "id":1,
-                           "label":"comfortable",
+                           "label":"Comfortable",
                            "selected":false,
                            "value":"VisualDensity.comfortable",
                            "selected_value":"VisualDensity.comfortable"
                         },
                         {
                            "id":2,
-                           "label":"compact",
+                           "label":"Compact",
                            "selected":false,
                            "value":"VisualDensity.compact",
                            "selected_value":"VisualDensity.compact"
                         },
                         {
                            "id":3,
-                           "label":"adaptivePlatformDensity",
+                           "label":"AdaptivePlatformDensity",
                            "selected":false,
                            "value":"VisualDensity.adaptivePlatformDensity",
                            "selected_value":"VisualDensity.adaptivePlatformDensity"
-                        },
-                        {
-                           "id":4,
-                           "label":"compact",
-                           "selected":false,
-                           "value":"VisualDensity.compact",
-                           "selected_value":"VisualDensity.compact"
                         }
                      ]
                   },
@@ -4226,38 +5127,31 @@
                      "value":[
                         {
                            "id":0,
-                           "label":"standard",
+                           "label":"Standard",
                            "selected":true,
                            "value":"VisualDensity.standard",
                            "selected_value":"VisualDensity.standard"
                         },
                         {
                            "id":1,
-                           "label":"comfortable",
+                           "label":"Comfortable",
                            "selected":false,
                            "value":"VisualDensity.comfortable",
                            "selected_value":"VisualDensity.comfortable"
                         },
                         {
                            "id":2,
-                           "label":"compact",
+                           "label":"Compact",
                            "selected":false,
                            "value":"VisualDensity.compact",
                            "selected_value":"VisualDensity.compact"
                         },
                         {
                            "id":3,
-                           "label":"adaptivePlatformDensity",
+                           "label":"AdaptivePlatformDensity",
                            "selected":false,
                            "value":"VisualDensity.adaptivePlatformDensity",
                            "selected_value":"VisualDensity.adaptivePlatformDensity"
-                        },
-                        {
-                           "id":4,
-                           "label":"compact",
-                           "selected":false,
-                           "value":"VisualDensity.compact",
-                           "selected_value":"VisualDensity.compact"
                         }
                      ]
                   }

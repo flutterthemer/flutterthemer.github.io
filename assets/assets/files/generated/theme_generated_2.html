@@ -14,9 +14,33 @@
         size: 'key_app_bar_icon_size',
       ),
       iconTheme: IconThemeData(
-        color: HexColor(themeMap['key_app_bar_icon_color']),
+        color: 'key_app_bar_icon_color']),
         size: double.parse(themeMap['key_app_bar_icon_size']),
       ),
+    ),
+    colorScheme: ColorScheme.light(
+      primary: 'key_cs_primary',
+      onPrimary: 'key_cs_on_primary',
+      primaryContainer:'key_cs_primary_container',
+      onPrimaryContainer:'key_cs_on_primary_container',
+      secondary: 'key_cs_secondary',
+      onSecondary: 'key_cs_on_secondary',
+      secondaryContainer:'key_cs_secondary_container',
+      onSecondaryContainer:'key_cs_on_secondary_container',
+      surface: 'key_cs_surface',
+      onSurface: 'key_cs_on_surface',
+      surfaceTint: 'key_cs_surface_tint',
+      surfaceVariant: 'key_cs_surface_variant',
+      onSurfaceVariant:'key_cs_on_surface_variant',
+      error: 'key_cs_error',
+      onError: 'key_cs_on_error',
+      errorContainer: 'key_cs_error_container',
+      onErrorContainer:'key_cs_on_error_container',
+      tertiary: 'key_cs_tertiary',
+      onTertiary: 'key_cs_on_tertiary',
+      tertiaryContainer:'key_cs_tertiary_container',
+      onTertiaryContainer:'key_cs_on_tertiary_container',
+      outline: 'key_cs_outline',
     ),
     textTheme: TextTheme(
       bodyLarge: TextStyle(
@@ -94,6 +118,9 @@
       style: ButtonStyle(
         iconSize: MaterialStateProperty.all<double>(
           'key_icon_btn_theme_icon_size',
+        ),
+        backgroundColor: MaterialStateProperty.all<Color>(
+          'key_icon_btn_icon_background_color',
         ),
         iconColor: MaterialStateProperty.all<Color>(
           'key_icon_btn_icon_color',
