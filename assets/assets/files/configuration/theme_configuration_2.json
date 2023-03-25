@@ -5672,5 +5672,253 @@
             ]
          }
       ]
-   }    
+   },
+   {
+      "id":1,
+      "title":"Input Decoration",
+      "expanded": false,
+      "basic": false,
+      "exclude_sort":false,
+      "items":[
+         {
+            "title":"",
+            "sub_items":[
+               {
+                  "id":1,
+                  "subtitle":false,
+                  "title":"Collapsed",
+                  "key":"key_input_decoration_collapsed",
+                  "value_type":"boolean",
+                  "input":"boolean",
+                  "dark":{
+                     "id":0,
+                     "value":[ 
+                       {
+                          "id": 0,
+                          "label":"Collapsed",
+                          "selected": true,
+                          "value": "true",
+                          "selected_value": "true"
+                       }
+                     ]
+                  },
+                  "light":{
+                     "id":1,
+                     "value":[ 
+                       {
+                          "id": 0,
+                          "label":"Collapsed",
+                          "selected": true,
+                          "value": "true",
+                          "selected_value": "true"
+                       }
+                     ]
+                  }
+               },
+               {
+                  "id":1,
+                  "subtitle":false,
+                  "title":"Align Label With Hint",
+                  "key":"key_input_decoration_align_label_with_hint",
+                  "value_type":"boolean",
+                  "input":"boolean",
+                  "dark":{
+                     "id":0,
+                     "value":[ 
+                       {
+                          "id": 0,
+                          "label":"Filled",
+                          "selected": true,
+                          "value": "true",
+                          "selected_value": "true"
+                       }
+                     ]
+                  },
+                  "light":{
+                     "id":1,
+                     "value":[ 
+                       {
+                          "id": 0,
+                          "label":"Filled",
+                          "selected": true,
+                          "value": "true",
+                          "selected_value": "true"
+                       }
+                     ]
+                  }
+               },
+               {
+                  "id":1,
+                  "subtitle":false,
+                  "title":"Dense",
+                  "key":"key_input_decoration_dense",
+                  "value_type":"boolean",
+                  "input":"boolean",
+                  "dark":{
+                     "id":0,
+                     "value":[ 
+                       {
+                          "id": 0,
+                          "label":"Dense",
+                          "selected": true,
+                          "value": "false",
+                          "selected_value": "false"
+                       }
+                     ]
+                  },
+                  "light":{
+                     "id":1,
+                     "value":[ 
+                       {
+                          "id": 0,
+                          "label":"Dense",
+                          "selected": true,
+                          "value": "false",
+                          "selected_value": "false"
+                       }
+                     ]
+                  }
+               },
+               {
+                  "id":1,
+                  "subtitle":false,
+                  "title":"Filled",
+                  "key":"key_input_decoration_filled",
+                  "value_type":"boolean",
+                  "input":"boolean",
+                  "dark":{
+                     "id":0,
+                     "value":[ 
+                       {
+                          "id": 0,
+                          "label":"Filled",
+                          "selected": true,
+                          "value": "true",
+                          "selected_value": "true"
+                       }
+                     ]
+                  },
+                  "light":{
+                     "id":1,
+                     "value":[ 
+                       {
+                          "id": 0,
+                          "label":"Filled",
+                          "selected": true,
+                          "value": "true",
+                          "selected_value": "true"
+                       }
+                     ]
+                  }
+               },
+               {
+                  "id":1,
+                  "subtitle":false,
+                  "title":"Visual Density",
+                  "key":"key_input_decoration_floating_label_behaviour",
+                  "value_type":"string",
+                  "input":"dropdown",
+                  "dark":{
+                     "id":0,
+                     "value":[
+                        {
+                           "id":0,
+                           "label":"Auto",
+                           "selected":true,
+                           "value":"auto",
+                           "selected_value":"auto"
+                        },
+                        {
+                           "id":1,
+                           "label":"Always",
+                           "selected":false,
+                           "value":"always",
+                           "selected_value":"always"
+                        },
+                        {
+                           "id":2,
+                           "label":"Never",
+                           "selected":false,
+                           "value":"never",
+                           "selected_value":"never"
+                        }
+                     ]
+                  },
+                  "light":{
+                     "id":1,
+                     "value":[
+                        {
+                           "id":0,
+                           "label":"Auto",
+                           "selected":true,
+                           "value":"FloatingLabelBehavior.auto",
+                           "selected_value":"FloatingLabelBehavior.auto"
+                        },
+                        {
+                           "id":1,
+                           "label":"Always",
+                           "selected":false,
+                           "value":"FloatingLabelBehavior.always",
+                           "selected_value":"FloatingLabelBehavior.always"
+                        },
+                        {
+                           "id":2,
+                           "label":"Never",
+                           "selected":false,
+                           "value":"FloatingLabelBehavior.never",
+                           "selected_value":"FloatingLabelBehavior.never"
+                        }
+                     ]
+                  }
+               },
+               {
+                  "id":1,
+                  "subtitle":false,
+                  "title":"Floating Label Alignment",
+                  "key":"key_input_decoration_floating_label_alignment",
+                  "value_type":"string",
+                  "input":"dropdown",
+                  "dark":{
+                     "id":0,
+                     "value":[
+                        {
+                           "id":0,
+                           "label":"Center",
+                           "selected":true,
+                           "value":"FloatingLabelAlignment.center",
+                           "selected_value":"FloatingLabelAlignment.center"
+                        },
+                        {
+                           "id":1,
+                           "label":"Start",
+                           "selected":false,
+                           "value":"FloatingLabelAlignment.start",
+                           "selected_value":"FloatingLabelAlignment.start"
+                        }
+                     ]
+                  },
+                  "light":{
+                     "id":1,
+                     "value":[
+                        {
+                           "id":0,
+                           "label":"Center",
+                           "selected":true,
+                           "value":"FloatingLabelAlignment.center",
+                           "selected_value":"FloatingLabelAlignment.center"
+                        },
+                        {
+                           "id":1,
+                           "label":"Start",
+                           "selected":false,
+                           "value":"FloatingLabelAlignment.start",
+                           "selected_value":"FloatingLabelAlignment.start"
+                        }
+                     ]
+                  }
+               }
+            ]
+         }       
+      ]
+   }
 ]
