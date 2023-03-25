@@ -3666,8 +3666,8 @@
                {
                   "id":1,
                   "subtitle":false,
-                  "title":"Background Color",
-                  "key":"key_txt_btn_background_color",
+                  "title":"Overlay Color",
+                  "key":"key_radio_theme_overlay_color",
                   "value_type":"string",
                   "input":"color",
                   "dark":{
@@ -3694,8 +3694,7 @@
                        }
                      ]
                   }
-               }
-              
+               }              
             ]
          }
       ]
