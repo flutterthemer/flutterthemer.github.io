@@ -4,8 +4,8 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "bc30e128bbe215d8805a4bc6a88c518b",
-"index.html": "6a1c2a77c9d995cbf626305926fcf7cc",
-"/": "6a1c2a77c9d995cbf626305926fcf7cc",
+"index.html": "0598770ce5360884009f479780489056",
+"/": "0598770ce5360884009f479780489056",
 "main.dart.js": "f238471974d45bbe364e870c99d5c1d0",
 "flutter.js": "a85fcf6324d3c4d3ae3be1ae4931e9c5",
 "favicon.png": "468bf9770fdb412db3cc1842eb3114fc",
@@ -30,7 +30,7 @@ const RESOURCES = {
 "assets/packages/fluttertoast/assets/toastify.css": "a85675050054f179444bc5ad70ffc635",
 "assets/fonts/MaterialIcons-Regular.otf": "e7069dfd19b331be16bed984668fe080",
 "assets/assets/images/favicon.png": "468bf9770fdb412db3cc1842eb3114fc",
-"assets/assets/files/generated/theme_generated_2.html": "9090d57ea1010f97e857494495602f67",
+"assets/assets/files/generated/theme_generated_2.html": "f8178571b43dd01621a3b61079741ad4",
 "assets/assets/files/generated/theme_generated_1.html": "3da45ccc83ddf619903f42cf58124c2f",
 "assets/assets/files/generated/theme_my_colors.html": "587210912a5877c171357008d2981958",
 "assets/assets/files/generated/theme_generated_0.html": "9d02e98e722a915617908b0c4882d888",
