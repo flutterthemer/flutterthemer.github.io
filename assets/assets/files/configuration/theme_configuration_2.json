@@ -535,7 +535,7 @@
       ]
    },
    {
-      "id":1,
+      "id":3,
       "title":"Icon Theme",
       "expanded": false,
       "basic": false,
@@ -580,7 +580,7 @@
       ]
    },
    {
-      "id":3,
+      "id":4,
       "title":"Tab Bar",
       "expanded":false,
       "basic":false,
@@ -813,7 +813,7 @@
       ]
    },
    {
-      "id":2,
+      "id":5,
       "title":"Text Theme",
       "expanded":false,
       "basic":false,
@@ -4192,6 +4192,83 @@
                   }
                }
               
+            ]
+         }
+      ]
+   },
+   {
+      "id": 3,
+      "title":"Bagde",
+      "expanded": false,
+      "basic": false,
+      "items":[
+         {
+            "title":"",
+            "sub_items":[
+               {
+                  "id":1,
+                  "subtitle":false,
+                  "title":"Background Color",
+                  "key":"key_bagde_background_color",
+                  "value_type":"string",
+                  "input":"color",
+                  "dark":{
+                     "id":0,
+                     "value":[ 
+                       {
+                          "id": 0,
+                          "label":"Background Color",
+                          "selected": true,
+                          "value": "#00000000",
+                          "selected_value": "#00000000"
+                       }
+                     ]
+                  },
+                  "light":{
+                     "id":1,
+                     "value":[ 
+                       {
+                          "id": 0,
+                          "label":"Background Color",
+                          "selected": true,
+                          "value": "#FFFFFFFF",
+                          "selected_value": "#FFFFFFFF"
+                       }
+                     ]
+                  }
+               },
+               {
+                  "id":2,
+                  "subtitle":false,
+                  "title":"Text Color",
+                  "key":"key_bagde_text_color",
+                  "value_type":"string",
+                  "input":"color",
+                  "dark":{
+                     "id":0,
+                     "value":[ 
+                       {
+                          "id": 0,
+                          "label":"Text Color",
+                          "selected": true,
+                          "value": "#FFFFFFFF",
+                          "selected_value": "#FFFFFFFF"
+                       }
+                     ]
+                  },
+                  "light":{
+                     "id":1,
+                     "value":[ 
+                       {
+                          "id": 0,
+                          "label":"Text Color",
+                          "selected": true,
+                          "value": "#00000000",
+                          "selected_value": "#00000000"
+                       }
+                     ]
+                  }
+               }              
             ]
          }
       ]
