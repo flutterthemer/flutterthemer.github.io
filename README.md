@@ -1,6 +1,8 @@
 <h1>Flutter Themer</h1>
 
-Flutter Themer - Helps to create customizable beautiful themes for your Flutter Applications.
+Flutter Themer 
+
+"Transform your Flutter app with ease using FlutterThemer - the ultimate solution for beautiful, customizable themes that will take your app to the next level!"
 
 Click the link below to access the web app.
 
