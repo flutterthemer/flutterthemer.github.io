@@ -8,7 +8,7 @@
           "link": true,
           "url": "mailto:flutterthemer@gmail.com",
           "copy_enabled":true,
-          "tooltip_message": "Open email client to contact"
+          "tooltip_message": "Send email"
        },
        {
             "id": 1,
