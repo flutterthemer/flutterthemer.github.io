@@ -1,5 +1,6 @@
   
   static final lightTheme = ThemeData(
+    useMaterial3: 'key_use_material_3',
     scaffoldBackgroundColor: 'key_scaffold_background_color',
     appBarTheme: AppBarTheme(
       systemOverlayStyle: 'key_appbar_system_overlay_style',
@@ -12,11 +13,21 @@
       actionsIconTheme: const IconThemeData(
         color: 'key_app_bar_icon_color',
         size: 'key_app_bar_icon_size',
+        opacity: 'key_app_bar_action_icon_opacity',
+        fill: 'key_app_bar_action_icon_fill',
       ),
       iconTheme: IconThemeData(
         color: 'key_app_bar_icon_color',
         size: 'key_app_bar_icon_size',
+        opacity: 'key_app_bar_icon_opacity',
+        fill: 'key_app_bar_icon_fill',
       ),
+      titleTextStyle: TextStyle(
+        color: 'key_app_bar_title_color',
+        fontSize: 'key_app_bar_title_font_size',
+        height: 'key_app_bar_title_font_height',
+      ),
+      shadowColor: 'key_app_bar_shadow_color',
     ),
     inputDecorationTheme: InputDecorationTheme(
       alignLabelWithHint: 'key_input_decoration_align_label_with_hint',
