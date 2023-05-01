@@ -566,8 +566,8 @@
                            "id":0,
                            "label":"color",
                            "selected":true,
-                           "value":"#FF000000",
-                           "selected_value":"#FF000000"
+                           "value":"#FF1976D2",
+                           "selected_value":"#FF1976D2"
                         }
                      ]
                   }
@@ -630,8 +630,8 @@
                            "id":0,
                            "label":"color",
                            "selected":true,
-                           "value":"#FFD1E4FF",
-                           "selected_value":"#FFD1E4FF"
+                           "value":"#FFFFFFFF",
+                           "selected_value":"#FFFFFFFF"
                         }
                      ]
                   }
