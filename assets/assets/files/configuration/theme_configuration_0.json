@@ -11,8 +11,8 @@
                {
                   "id":1,
                   "subtitle":false,
-                  "title":"Primary Swatch",
-                  "key":"key_primary_swatch_color",
+                  "title":"Seed Color",
+                  "key":"color_scheme_seed",
                   "value_type":"string",
                   "input":"color",
                   "dark":{

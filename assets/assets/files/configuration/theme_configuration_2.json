@@ -5573,38 +5573,6 @@
                {
                   "id":1,
                   "subtitle":false,
-                  "title":"Use Material 3",
-                  "key":"key_use_material_3",
-                  "value_type":"boolean",
-                  "input":"boolean",
-                  "dark":{
-                     "id":0,
-                     "value":[ 
-                       {
-                          "id": 0,
-                          "label":"Collapsed",
-                          "selected": true,
-                          "value": "false",
-                          "selected_value": "false"
-                       }
-                     ]
-                  },
-                  "light":{
-                     "id":1,
-                     "value":[ 
-                       {
-                          "id": 0,
-                          "label":"Collapsed",
-                          "selected": false,
-                          "value": "false",
-                          "selected_value": "false"
-                       }
-                     ]
-                  }
-               },
-               {
-                  "id":1,
-                  "subtitle":false,
                   "title":"Visual Density",
                   "key":"key_visual_density",
                   "value_type":"string",
