@@ -2276,6 +2276,278 @@
                         }
                      ]
                   }
+               },
+               {
+                  "id": 3,
+                  "subtitle":false,
+                  "title":"Overlay Color",
+                  "key":"key_txt_btn_overlay_color",
+                  "value_type":"string",
+                  "input":"color",
+                  "dark":{
+                     "id":0,
+                     "value":[
+                        {
+                           "id":0,
+                           "label":"Overlay Color",
+                           "selected":true,
+                           "value":"#0DFFFFFF",
+                           "selected_value":"#0DFFFFFF"
+                        }
+                     ]
+                  },
+                  "light":{
+                     "id":1,
+                     "value":[
+                        {
+                           "id":0,
+                           "label":"color",
+                           "selected":true,
+                           "value":"#0C000000",
+                           "selected_value":"#0C000000"
+                        }
+                     ]
+                  }
+               },
+               {
+                  "id": 4,
+                  "subtitle":false,
+                  "title":"Icon Color",
+                  "key":"key_txt_btn_icon_color",
+                  "value_type":"string",
+                  "input":"color",
+                  "dark":{
+                     "id":0,
+                     "value":[
+                        {
+                           "id":0,
+                           "label":"Icon Color",
+                           "selected":true,
+                           "value":"#FFFFFFFF",
+                           "selected_value":"#FFFFFFFF"
+                        }
+                     ]
+                  },
+                  "light":{
+                     "id":1,
+                     "value":[
+                        {
+                           "id":0,
+                           "label":"color",
+                           "selected":true,
+                           "value":"#FF1976D2",
+                           "selected_value":"#FF1976D2"
+                        }
+                     ]
+                  }
+               },
+               {
+                  "id": 5,
+                  "subtitle":false,
+                  "title":"Icon Size",
+                  "key":"key_txt_btn_icon_size",
+                  "value_type":"string",
+                  "input":"number",
+                  "dark":{
+                     "id":0,
+                     "value":[
+                        {
+                           "id":0,
+                           "label":"Icon Size",
+                           "selected":true,
+                           "value":"16",
+                           "selected_value":"16"
+                        }
+                     ]
+                  },
+                  "light":{
+                     "id":1,
+                     "value":[
+                        {
+                           "id":0,
+                           "label":"Icon Size",
+                           "selected":true,
+                           "value":"16",
+                           "selected_value":"16"
+                        }
+                     ]
+                  }
+               },
+               {
+                  "id": 3,
+                  "subtitle":false,
+                  "title":"Elevation",
+                  "key":"key_txt_btn_elevation",
+                  "value_type":"string",
+                  "input":"number",
+                  "dark":{
+                     "id":0,
+                     "value":[
+                        {
+                           "id":0,
+                           "label":"Elevation",
+                           "selected":true,
+                           "value":"0",
+                           "selected_value":"0"
+                        }
+                     ]
+                  },
+                  "light":{
+                     "id":1,
+                     "value":[
+                        {
+                           "id":0,
+                           "label":"color",
+                           "selected":true,
+                           "value":"0",
+                           "selected_value":"0"
+                        }
+                     ]
+                  }
+               },
+               {
+                  "id":1,
+                  "subtitle":false,
+                  "title":"Alignment",
+                  "key":"key_txt_btn_alignment",
+                  "value_type":"string",
+                  "input":"dropdown",
+                  "dark":{
+                     "id":0,
+                     "value":[
+                        {
+                           "id":6,
+                           "label":"Center",
+                           "selected":true,
+                           "value":"Alignment.center",
+                           "selected_value":"Alignment.center"
+                        },
+                        {
+                           "id":7,
+                           "label":"Center Left",
+                           "selected":true,
+                           "value":"Alignment.centerLeft",
+                           "selected_value":"Alignment.centerLeft"
+                        },
+                        {
+                           "id":8,
+                           "label":"Center Right",
+                           "selected":true,
+                           "value":"Alignment.centerRight",
+                           "selected_value":"Alignment.centerRight"
+                        },
+                        {
+                           "id":0,
+                           "label":"Top Left",
+                           "selected":true,
+                           "value":"Alignment.topLeft",
+                           "selected_value":"Alignment.topLeft"
+                        },
+                        {
+                           "id":1,
+                           "label":"Top Center",
+                           "selected":true,
+                           "value":"Alignment.topCenter",
+                           "selected_value":"Alignment.topCenter"
+                        },
+                        {
+                           "id":2,
+                           "label":"TopRight",
+                           "selected":true,
+                           "value":"Alignment.topRight",
+                           "selected_value":"Alignment.topRight"
+                        },
+                        {
+                           "id":3,
+                           "label":"Bottom Left",
+                           "selected":true,
+                           "value":"Alignment.bottomLeft",
+                           "selected_value":"Alignment.bottomLeft"
+                        },
+                        {
+                           "id":4,
+                           "label":"Bottom Center",
+                           "selected":true,
+                           "value":"Alignment.bottomCenter",
+                           "selected_value":"Alignment.bottomCenter"
+                        },
+                        {
+                           "id":5,
+                           "label":"Bottom Right",
+                           "selected":true,
+                           "value":"Alignment.bottomRight",
+                           "selected_value":"Alignment.bottomRight"
+                        }
+                     ]
+                  },
+                  "light":{
+                     "id":1,
+                     "value":[
+                        {
+                           "id":6,
+                           "label":"Center",
+                           "selected":true,
+                           "value":"Alignment.center",
+                           "selected_value":"Alignment.center"
+                        },
+                        {
+                           "id":7,
+                           "label":"Center Left",
+                           "selected":true,
+                           "value":"Alignment.centerLeft",
+                           "selected_value":"Alignment.centerLeft"
+                        },
+                        {
+                           "id":8,
+                           "label":"Center Right",
+                           "selected":true,
+                           "value":"Alignment.centerRight",
+                           "selected_value":"Alignment.centerRight"
+                        },
+                        {
+                           "id":0,
+                           "label":"Top Left",
+                           "selected":true,
+                           "value":"Alignment.topLeft",
+                           "selected_value":"Alignment.topLeft"
+                        },
+                        {
+                           "id":1,
+                           "label":"Top Center",
+                           "selected":true,
+                           "value":"Alignment.topCenter",
+                           "selected_value":"Alignment.topCenter"
+                        },
+                        {
+                           "id":2,
+                           "label":"TopRight",
+                           "selected":true,
+                           "value":"Alignment.topRight",
+                           "selected_value":"Alignment.topRight"
+                        },
+                        {
+                           "id":3,
+                           "label":"Bottom Left",
+                           "selected":true,
+                           "value":"Alignment.bottomLeft",
+                           "selected_value":"Alignment.bottomLeft"
+                        },
+                        {
+                           "id":4,
+                           "label":"Bottom Center",
+                           "selected":true,
+                           "value":"Alignment.bottomCenter",
+                           "selected_value":"Alignment.bottomCenter"
+                        },
+                        {
+                           "id":5,
+                           "label":"Bottom Right",
+                           "selected":true,
+                           "value":"Alignment.bottomRight",
+                           "selected_value":"Alignment.bottomRight"
+                        }
+                     ]
+                  }
                }
             ]
          },

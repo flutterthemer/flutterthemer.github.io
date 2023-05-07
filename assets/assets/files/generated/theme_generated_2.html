@@ -107,25 +107,20 @@
     ),
     textButtonTheme: TextButtonThemeData(
       style: ButtonStyle(
-        foregroundColor: MaterialStateProperty.all<Color>(
-         'key_txt_btn_foreground_color',          
-        ),
-        backgroundColor: MaterialStateProperty.all<Color>(
-         'key_txt_btn_background_color',          
-        ),
+        foregroundColor: MaterialStateProperty.all<Color>('key_txt_btn_foreground_color'),
+        backgroundColor: MaterialStateProperty.all<Color>('key_txt_btn_background_color' ),
+        overlayColor: MaterialStateProperty.all<Color>('key_txt_btn_overlay_color'),
+        elevation: MaterialStateProperty.all<double>('key_txt_btn_elevation'),
+        iconSize: MaterialStateProperty.all<double>('key_txt_btn_icon_size'),
+        iconColor: MaterialStateProperty.all<Color>('key_txt_btn_icon_color'),
+        alignment: 'key_txt_btn_alignment',
       ),
     ),
     elevatedButtonTheme: ElevatedButtonThemeData(
       style: ButtonStyle(
-        foregroundColor: MaterialStateProperty.all<Color>(
-          'key_elevated_btn_foreground_color',
-        ),
-        backgroundColor: MaterialStateProperty.all<Color>(
-          'key_elevated_btn_background_color',
-        ),
-        elevation: MaterialStateProperty.all<double>(
-          'key_elevated_btn_elevation',
-        ),
+        foregroundColor: MaterialStateProperty.all<Color>('key_elevated_btn_foreground_color',),
+        backgroundColor: MaterialStateProperty.all<Color>('key_elevated_btn_background_color'),
+        elevation: MaterialStateProperty.all<double>('key_elevated_btn_elevation'),
       ),
     ),
     chipTheme: ChipThemeData(
@@ -134,15 +129,9 @@
     ),
     iconButtonTheme: IconButtonThemeData(
       style: ButtonStyle(
-        iconSize: MaterialStateProperty.all<double>(
-          'key_icon_btn_theme_icon_size',
-        ),
-        backgroundColor: MaterialStateProperty.all<Color>(
-          'key_icon_btn_icon_background_color',
-        ),
-        iconColor: MaterialStateProperty.all<Color>(
-          'key_icon_btn_icon_color',
-        ),        
+        iconSize: MaterialStateProperty.all<double>('key_icon_btn_theme_icon_size'),
+        backgroundColor: MaterialStateProperty.all<Color>('key_icon_btn_icon_background_color'),
+        iconColor: MaterialStateProperty.all<Color>('key_icon_btn_icon_color'),        
       ),
     ),
     switchTheme: SwitchThemeData(
@@ -152,32 +141,18 @@
     ),
     filledButtonTheme: FilledButtonThemeData(
       style: ButtonStyle(
-        backgroundColor: MaterialStateProperty.all<Color>(
-          'key_filled_btn_background_color',
-        ),
-        foregroundColor: MaterialStateProperty.all<Color>(
-          'key_filled_btn_foreground_color',
-        ),
+        backgroundColor: MaterialStateProperty.all<Color>('key_filled_btn_background_color'),
+        foregroundColor: MaterialStateProperty.all<Color>('key_filled_btn_foreground_color'),
       ),
     ),
     radioTheme: RadioThemeData(
-      fillColor: MaterialStateProperty.all<Color>(
-        'key_radio_theme_fill_color',
-      ),
-      overlayColor: MaterialStateProperty.all<Color>(
-        'key_radio_theme_overlay_color',
-      ),
+      fillColor: MaterialStateProperty.all<Color>('key_radio_theme_fill_color'),
+      overlayColor: MaterialStateProperty.all<Color>('key_radio_theme_overlay_color'),
     ),
-    iconTheme: IconThemeData(
-      color: 'key_icon_theme_icon_color',
-    ),
+    iconTheme: IconThemeData(color: 'key_icon_theme_icon_color'),
     checkboxTheme: CheckboxThemeData(
-      checkColor: MaterialStateProperty.all<Color>(
-        'key_checkbox_theme_check_color',
-      ),
-      fillColor: MaterialStateProperty.all<Color>(
-        'key_checkbox_theme_check_color',
-      ),
+      checkColor: MaterialStateProperty.all<Color>('key_checkbox_theme_check_color'),
+      fillColor: MaterialStateProperty.all<Color>('key_checkbox_theme_check_color'),
     ),
     listTileTheme: ListTileThemeData(
       tileColor: 'key_list_tile_tile_color',
