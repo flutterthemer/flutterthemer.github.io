@@ -4710,8 +4710,8 @@
                           "id": 0,
                           "label":"Header Background Color",
                           "selected": true,
-                          "value": "#FF1A1C1E",
-                          "selected_value": "#FF1A1C1E"
+                          "value": "#FF1976D2",
+                          "selected_value": "#FF1976D2"
                        }
                      ]
                   }
@@ -4742,8 +4742,8 @@
                           "id": 0,
                           "label":"Background Color",
                           "selected": true,
-                          "value": "#FF1A1C1E",
-                          "selected_value": "#FF1A1C1E"
+                          "value": "#FF1976D2",
+                          "selected_value": "#FF1976D2"
                        }
                      ]
                   }
