@@ -4645,6 +4645,116 @@
    },
    {
       "id":1,
+      "title":"Date Picker",
+      "expanded": false,
+      "basic": false,
+      "items":[
+         {
+            "title":"",
+            "sub_items":[
+               {
+                  "id":1,
+                  "subtitle":false,
+                  "title":"Background Color",
+                  "key":"key_date_picker_background_color",
+                  "value_type":"string",
+                  "input":"color",
+                  "dark":{
+                     "id":0,
+                     "value":[ 
+                       {
+                          "id": 0,
+                          "label":"Background Color",
+                          "selected": true,
+                          "value": "#FF000000",
+                          "selected_value": "#FF000000"
+                       }
+                     ]
+                  },
+                  "light":{
+                     "id":1,
+                     "value":[ 
+                       {
+                          "id": 0,
+                          "label":"Background Color",
+                          "selected": true,
+                          "value": "#FFFFFFFF",
+                          "selected_value": "#FFFFFFFF"
+                       }
+                     ]
+                  }
+               },
+               {
+                  "id":1,
+                  "subtitle":false,
+                  "title":"Header Background Color",
+                  "key":"key_date_picker_header_background_color",
+                  "value_type":"string",
+                  "input":"color",
+                  "dark":{
+                     "id":0,
+                     "value":[ 
+                       {
+                          "id": 0,
+                          "label":"Header Background Color",
+                          "selected": true,
+                          "value": "#FF1A1C1E",
+                          "selected_value": "#FF1A1C1E"
+                       }
+                     ]
+                  },
+                  "light":{
+                     "id":1,
+                     "value":[ 
+                       {
+                          "id": 0,
+                          "label":"Header Background Color",
+                          "selected": true,
+                          "value": "#FF1A1C1E",
+                          "selected_value": "#FF1A1C1E"
+                       }
+                     ]
+                  }
+               },
+               {
+                  "id":1,
+                  "subtitle":false,
+                  "title":"Range Picker Background Color",
+                  "key":"key_date_picker_range_picker_background_color",
+                  "value_type":"string",
+                  "input":"color",
+                  "dark":{
+                     "id":0,
+                     "value":[ 
+                       {
+                          "id": 0,
+                          "label":"Range Picker Background Color",
+                          "selected": true,
+                          "value": "#FF000000",
+                          "selected_value": "#FF000000"
+                       }
+                     ]
+                  },
+                  "light":{
+                     "id":1,
+                     "value":[ 
+                       {
+                          "id": 0,
+                          "label":"Background Color",
+                          "selected": true,
+                          "value": "#FF1A1C1E",
+                          "selected_value": "#FF1A1C1E"
+                       }
+                     ]
+                  }
+               }
+              
+            ]
+         }
+      ]
+   },
+   {
+      "id":1,
       "title":"Slider",
       "expanded": false,
       "basic": false,
@@ -5865,6 +5975,7 @@
          {
             "title":"Others",
             "sub_items":[
+               
                {
                   "id":0,
                   "subtitle":false,
@@ -6259,6 +6370,38 @@
          {
             "title":"",
             "sub_items":[
+               {
+                  "id":1,
+                  "subtitle":false,
+                  "title":"Use Material 3",
+                  "key":"key_use_material_3",
+                  "value_type":"boolean",
+                  "input":"boolean",
+                  "dark":{
+                     "id":0,
+                     "value":[ 
+                       {
+                          "id": 0,
+                          "label":"Collapsed",
+                          "selected": true,
+                          "value": "false",
+                          "selected_value": "false"
+                       }
+                     ]
+                  },
+                  "light":{
+                     "id":1,
+                     "value":[ 
+                       {
+                          "id": 0,
+                          "label":"Collapsed",
+                          "selected": false,
+                          "value": "false",
+                          "selected_value": "false"
+                       }
+                     ]
+                  }
+               },
                {
                   "id":1,
                   "subtitle":false,
