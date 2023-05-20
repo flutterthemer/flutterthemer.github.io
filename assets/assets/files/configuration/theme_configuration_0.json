@@ -43,7 +43,7 @@
                {
                   "id":1,
                   "subtitle":false,
-                  "title":"Use Material 3",
+                  "title":"Material 3",
                   "key":"key_use_material_3",
                   "value_type":"boolean",
                   "input":"boolean",
