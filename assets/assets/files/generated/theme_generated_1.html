@@ -1,7 +1,17 @@
   static final lightTheme = ThemeData(
-    colorScheme: const ColorScheme.light(
+    useMaterial3: 'key_use_material_3',
+    colorScheme: const ColorScheme.fromSeed(
+      seedColor: 'color_scheme_seed',
       primary: 'key_cs_primary',
       onPrimary: 'key_cs_on_primary',
+      scrim: 'key_cs_scrim',
+      inversePrimary: 'key_cs_inverse_primary',
+      inverseSurface: 'key_cs_inverse_surface',
+      onInverseSurface: 'key_cs_on_inverse_surface',
+      outlineVariant: 'key_cs_outline_variant',
+      shadow: 'key_cs_shadow',
+      background: 'key_cs_background_color',
+      onBackground: 'key_cs_on_background_color',
       primaryContainer: 'key_cs_primary_container',
       onPrimaryContainer: 'key_cs_on_primary_container',
       secondary: 'key_cs_secondary',
@@ -24,8 +34,7 @@
       onTertiaryContainer: 'key_cs_on_tertiary_container',
       outline: 'key_cs_outline',
       shadow: 'key_cs_shadow',
-    ),
-    brightness: 'key_cs_brightness',
+    ),   
     'extensions'
   );
 
