@@ -28,6 +28,15 @@
          "link": false,
          "copy_enabled":false,
          "tooltip_message": "Tap to see the latest app updates"
+      },
+      {
+         "id": 101,
+         "title":"Tutorial",
+         "subtitle":"Tap to see quick tutorial",
+         "icon": "0xf815",
+         "link": false,
+         "copy_enabled":false,
+         "tooltip_message": "Tap to see quick tutorial"
       }
     ]
  }
