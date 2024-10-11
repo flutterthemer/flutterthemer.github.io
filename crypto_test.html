@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Check Crypto Subtle</title>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const cryptoSupported = !!(window.crypto && window.crypto.subtle);
+            document.body.innerHTML = cryptoSupported 
+                ? 'Crypto Subtle is supported.' 
+                : 'Crypto Subtle is NOT supported.';
+        });
+    </script>
+</head>
+<body>
+    <p>Checking...</p>
+</body>
+</html>
