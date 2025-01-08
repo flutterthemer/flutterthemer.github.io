@@ -1,0 +1,10 @@
+{
+    "applinks": {
+        "apps": []
+    },
+    "webcredentials": {
+        "apps": [
+            "ABC123DEF456.com.example.myapp"
+        ]
+    }
+}
